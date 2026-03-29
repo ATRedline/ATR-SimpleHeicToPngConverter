@@ -5,7 +5,7 @@
 Использует библиотеку [Magick.NET](https://github.com/dlemstra/Magick.NET) под капотом.
 Для запуска необходим .NET 10.0 Desktop Runtime (SKD??)
 
-**Текущая версия:** 2.0
+**Текущая версия:** 2.0.0
 
 [Скачать](https://github.com/ATRedline/ATR-SimpleHeicToPngConverter/releases/tag/release)
 
@@ -17,6 +17,8 @@ Simple, free to use, multithreaded (fast) .heic to .png images converter
 
 Uses [Magick.NET](https://github.com/dlemstra/Magick.NET) lib inside.
 Requires .NET 10.0 Desktop Runtime (SDK??) to run.
+
+**Current version:** 2.0.0
 
 [Download](https://github.com/ATRedline/ATR-SimpleHeicToPngConverter/releases/tag/release)
 
