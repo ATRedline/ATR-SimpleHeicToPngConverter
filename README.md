@@ -20,4 +20,4 @@ Requires .NET 10.0 Desktop Runtime (SDK??) to run.
 
 [Скачать](https://github.com/ATRedline/ATR-SimpleHeicToPngConverter/releases/tag/release)
 
-![preview](Resources/InProcess.png)
+![preview](Images/InProcess.png)
