@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Version>2.0.0</Version>
+	</PropertyGroup>
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+	  <SatelliteResourceLanguages>XXX</SatelliteResourceLanguages>
+	  <AllowedReferenceRelatedFileExtensions>*.pdb;*.xml</AllowedReferenceRelatedFileExtensions>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<ApplicationIcon>resources\app.ico</ApplicationIcon>
+    <UseWPF>true</UseWPF>
+	<AssemblyName>SimpleHeicToPngConverter</AssemblyName>
+	<AssemblyTitle>SimpleHeicToPngConverter</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\heic.png" />
+    <None Remove="resources\png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q16-AnyCPU" Version="14.11.1" />
+    <PackageReference Include="Microsoft-WindowsAPICodePack-Shell" Version="1.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\heic.png" />
+    <Resource Include="resources\png.png" />
+  </ItemGroup>
+
+</Project>
