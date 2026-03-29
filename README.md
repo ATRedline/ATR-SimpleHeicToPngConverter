@@ -18,6 +18,6 @@ Simple, free to use, multithreaded (fast) .heic to .png images converter
 Uses [Magick.NET](https://github.com/dlemstra/Magick.NET) lib inside.
 Requires .NET 10.0 Desktop Runtime (SDK??) to run.
 
-[Скачать](https://github.com/ATRedline/ATR-SimpleHeicToPngConverter/releases/tag/release)
+[Download](https://github.com/ATRedline/ATR-SimpleHeicToPngConverter/releases/tag/release)
 
 ![preview](Images/InProcess.png)
